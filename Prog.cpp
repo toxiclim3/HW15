@@ -1,17 +1,19 @@
-#include "Function.cpp"
+#define INT
 #include "Function.h"
+#include "Function.cpp"
+
 
 
 #include <iostream>
 
 using namespace std;
 
-#define DOUBLE
+
 
 int main()
 {
 	const int size = 10;
-	double array[size];
+	int array[size];
 
 	init(array,size);
 	cout(array, size);
